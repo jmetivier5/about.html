@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Joshua Metivier's Portfolio</title>
+   <style>
+      body {
+         background-color: #F2F2F2;
+         font-family: 'JetBrains Mono', monospace;
+         margin: 0;
+         padding: 0;
+      }
+
+      header {
+         background-color: #000;
+         text-align: center;
+         padding: 10px 0;
+      }
+
+      footer {
+         background-color: #C09CCC;
+         text-align: center;
+         padding: 10px 0;
+      }
+
+      .center {
+         display: block;
+         margin: 0 auto;
+         width: 80%;
+         max-width: 600px;
+      }
+
+      .navbar {
+         display: flex;
+         justify-content: center;
+         background-color: #000000;
+         padding: 10px 0;
+      }
+
+      .navbar a {
+         color: white;
+         text-decoration: none;
+         padding: 14px 20px;
+         font-family: 'JetBrains Mono', monospace;
+         font-size: 0.7rem;
+         text-transform: uppercase;
+      }
+
+      .navbar a:hover {
+         background-color: #575757;
+         color: yellow;
+      }
+
+      section {
+         display: flex;
+         flex-wrap: wrap;
+         padding: 20px;
+         align-items: stretch;
+         gap: 20px;
+      }
+
+      nav {
+         flex: 1 1 100%;
+         background: #F2F2F2;
+         padding: 70px 20px 70px 50px;
+         box-sizing: border-box;
+         font-size: 1rem;
+      }
+
+      article {
+         flex: 1 1 100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         box-sizing: border-box;
+         background-color: #F2F2F2;
+         padding: 20px;
+      }
+
+      article img {
+         max-height: 100%;
+         width: auto;
+         object-fit: contain;
+         border-radius: 50%; /* Makes the image circular */
+         max-width: 200px; /* Adjust image size */
+      }
+
+      h1 {
+         font-size: 2rem;
+         margin: 0 0 10px;
+      }
+
+      p {
+         font-size: 1rem;
+         margin: 0;
+      }
+
+      .highlight {
+         font-family: 'Knewave', cursive;
+         font-weight: bold;
+      }
+
+      .colourtxt {
+         color: yellow;
+      }
+
+      @media screen and (min-width: 600px) {
+         section {
+            flex-wrap: nowrap;
+         }
+
+         nav {
+            flex: 1 1 50%;
+         }
+
+         article {
+            flex: 1 1 50%;
+         }
+
+         h1 {
+            font-size: 2.5rem;
+         }
+
+         p {
+            font-size: 1.2rem;
+         }
+
+         .txt {
+            font-size: 1.7rem;
+         }
+
+         div {
+            padding: 150px;
+         }
+      }
+
+      @media screen and (max-width: 600px) {
+         article img {
+            max-height: 200px; /* Limit height for smaller screens */
+            width: auto;
+         }
+
+         h1 {
+            font-size: 1.5rem;
+         }
+
+         p {
+            font-size: 0.9rem;
+         }
+
+         .center {
+            width: 100%;
+         }
+
+         .txt {
+            font-size: 1.2rem;
+         }
+
+         div {
+            padding: 75px;
+         }
+      }
+
+   </style>
+</head>
+
+<body>
+   <header>
+      <img src="site banner.jpg" alt="Site Banner" class="center">
+   </header>
+
+   <nav class="navbar">
+      <a href="#index">Index</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+   </nav>
+
+   <main>
+      <section>
+         <nav>
+            <h1><b>Who Am I?</b></h1>
+            <p>Hey, I’m Josh! A second-year GBDA student attending the University of Waterloo.</p>
+            <p>I have always been passionate about design. From a young age, I’ve loved to draw and create. Stemming off of this as I grew older, I learned many different types of design. Some of these include Illustration, Fashion design, Graphic design, Product design, and UX/UI design.</p>
+            <p>My personality reflects in my design style quite a bit. I am a perfectionist down to the small details and I love to learn new areas of design that can be incorporated into my work. I enjoy creating custom typefaces and lettering as well as putting together collage and poster pieces.</p>
+            <p>Some of my favorite time spent on design has been on my clothing brand “Star Kreutz” (originally “Fallen Sky Apparel”). It is currently undergoing a complete rebrand which I am excited to release to the public. For this project I have had to do market research, understanding product design, graphic design, and web design. Every day I learn something new that adds to my skillset and helps me improve my brand.</p>
+            <p>I have developed these skills through the journey of my brand and have been able to put them to use in a business that generates revenue which I reinvest back into the brand as well as into my barbering business.</p>
+            <p>Being an entrepreneur from such a young age has helped with my understanding and knowledge of time and resource management. I have to plan things out accordingly to ensure that customers aren’t left waiting or that there isn’t enough capital to invest into the next collection.</p>
+            <p>I’ve gained team collaboration skills while working on a group UX/UI project where we created wireframes, and digital prototypes for a new function/mode in a pre-existing platform. This has taught me leadership and collaborative skills that add to my knowledge.</p>
+         </nav>
+         <article>
+            <!-- Headshot Image -->
+            <img src="headshot.png" alt="Joshua Metivier's Headshot">
+         </article>
+      </section>
+   </main>
+
+   <footer>
+      <p>&copy; 2024 Joshua Metivier</p>
+   </footer>
+</body>
+
+</html>
